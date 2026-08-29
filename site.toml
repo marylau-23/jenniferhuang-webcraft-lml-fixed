@@ -1,8 +1,8 @@
 [site]
-name = "lml"
-url = "https://jenniferhuang-webcraft-lml.vercel.app/"
+name = "lml-fixed"
+url = "https://jenniferhuang-webcraft-lml-fixed.vercel.app/"
 original_url = "https://lml.cc/en"
-description = "Replication of lml.cc"
+description = "Portfolio website for Liang Minliang Design Studio - fixed PRD scaffold spec"
 category = "replication"
 
 [site.tech]
@@ -21,7 +21,6 @@ file = "PRD.md"
 setup = ""
 backend = ""
 
-# Dashboard preview screenshot (committed image). Walkthrough videos are linked in SETUP.md.
 [[screenshots]]
 route = "/"
 file = "screenshots/replica-home-hero.png"
