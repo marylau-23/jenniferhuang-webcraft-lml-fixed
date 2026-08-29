@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>try{if(sessionStorage.getItem('lml-transition')==='1')document.documentElement.classList.add('lml-transitioning');}catch(e){}</script>
+    <link rel="stylesheet" href="/src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Happy Year of the Horse 2026!!!! - Journal - LML Design Studio" />
+    <title>Happy Year of the Horse 2026!!!! - Journal - LML Design Studio</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="256x256" />
+    <link rel="preload" href="/fonts/neuemontreal-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/neuemontreal-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/noto-sans-sc.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body class="overflow-x-hidden antialiased">
+
+<!-- ===== HEADER NAV (z-1001) ===== -->
+    <header id="site-header">
+      <div class="header-inner">
+        <div class="header-flex">
+          <!-- Logo -->
+          <div class="header-logo-wrap">
+            <a href="/" class="header-logo-link">
+              <div class="header-logo" role="img" aria-label="LML Design Studio" style="view-transition-name:header-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 467 179" fill="currentColor">
+                  <path d="M347.168 0H376.918V153.5H466.168V178.75H347.168V0Z" fill="currentColor"></path>
+                  <path d="M139.404 178.75V0H177.904L227.904 137.5H228.404L278.154 0H316.654V178.75H287.654V43.25H287.154L239.904 178.75H216.154L168.904 43.25H168.404V178.75H139.404Z" fill="currentColor"></path>
+                  <path d="M0 0H29.75V153.5H119V178.75H0V0Z" fill="currentColor"></path>
+                </svg>
+              </div>
+            </a>
+          </div>
+
+          <!-- Desktop Nav -->
+          <nav class="desktop-nav">
+            <div class="nav-link-wrap">
+              <a class="nav-link" href="/work">Work</a>
+            </div>
+            <div class="nav-link-wrap">
+              <a class="nav-link" href="/studio">Studio</a>
+            </div>
+          </nav>
+
+          <!-- Mobile Hamburger -->
+          <button id="hamburger-btn" class="hamburger-btn" aria-label="Open navigation menu" aria-expanded="false">
+            <span class="hamburger-bar hamburger-bar--top"></span>
+            <span class="hamburger-bar hamburger-bar--bottom"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== MOBILE MENU PANEL ===== -->
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="mobile-menu-inner">
+        <nav class="mobile-menu-nav">
+          <a href="/" class="mobile-menu-link">Home</a>
+          <a href="/work" class="mobile-menu-link">Work</a>
+          <a href="/studio" class="mobile-menu-link">Studio</a>
+        </nav>
+        <div class="mobile-menu-footer">
+          <div class="mobile-menu-lang">
+            <button class="mobile-lang-btn">中文</button>
+            <button class="mobile-lang-btn mobile-lang-btn--active">EN</button>
+          </div>
+          <a href="/contact" class="mobile-menu-contact">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0ZM1.27273 7C1.27273 3.83691 3.83691 1.27273 7 1.27273C10.1631 1.27273 12.7273 3.83691 12.7273 7C12.7273 10.1631 10.1631 12.7273 7 12.7273C3.83691 12.7273 1.27273 10.1631 1.27273 7Z" fill="currentColor"/>
+            </svg>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PROGRESSIVE BLUR OVERLAY (z-1000) ===== -->
+    <div id="progressive-blur" class="progressive-blur">
+      <div class="blur-gradient-overlay"></div>
+      <div class="blur-stack">
+        <div class="blur-stack-bg">
+          <div class="blur-layer blur-layer-1"></div>
+          <div class="blur-layer blur-layer-2"></div>
+          <div class="blur-layer blur-layer-3"></div>
+          <div class="blur-layer blur-layer-4"></div>
+          <div class="blur-layer blur-layer-5"></div>
+          <div class="blur-layer blur-layer-6"></div>
+          <div class="blur-layer blur-layer-7"></div>
+          <div class="blur-layer blur-layer-8"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== NOISE OVERLAY (z-9999) ===== -->
+    <canvas id="noise-canvas" class="noise-overlay" width="1024" height="1024"></canvas>
+
+    
+    <!-- ===== MAIN CONTENT ===== -->
+    <div class="relative">
+      <div class="page-content-container">
+        <div class="journal-detail-page" data-journal-slug="horseyear">
+
+          <section class="journal-detail-section">
+            <!-- Title + date (left) -->
+            <div class="journal-detail-head">
+              <div class="journal-detail-head-sticky">
+                <h1 class="journal-detail-title">Happy Year of the Horse 2026!!!!</h1>
+                <div class="journal-detail-date">2026-01-26</div>
+              </div>
+            </div>
+            <!-- Poem content (middle) -->
+            <div class="journal-detail-content">
+              <div class="rich-text-content">
+                <p>The horse symbolizes speed, direction, and will.<br>It is not a metaphor for the destination,<br>but for the journey itself.</p>
+            <p>In this era of constant acceleration,<br>what is truly scarce is not moving faster,<br>but maintaining clarity while running.</p>
+            <p>LML Design Studio wishes everyone:<br>Move forward, but not blindly;<br>Evolve, but without compromise;<br>Continue creating amidst change,<br>and build your own order within the flow.</p>
+              </div>
+            </div>
+            <!-- Thumbnail (right) -->
+            <div class="journal-detail-thumb">
+              <img src="/images/journal/1767753741500-509881961.webp" alt="Happy Year of the Horse 2026!!!!" loading="lazy" />
+            </div>
+          </section>
+
+          <!-- Related -->
+          <section class="journal-related">
+            <h2 class="journal-related-title">Related</h2>
+            <div class="journal-related-list">
+              <div class="journal-card journal-card--static">
+                <div class="journal-card-img"><img src="/images/journal/1767753653693-816502931.webp" alt="Studio 2026 Website Officially Launched" loading="lazy" /></div>
+                <div class="journal-card-meta">
+                  <h3 class="journal-card-title">Studio 2026 Website Officially Launched</h3>
+                  <div class="journal-card-date">2026-01-15</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- ===== CTA BANNER (Back / ←Contact) ===== -->
+          <section class="cta-banner-section">
+            <a href="/journal" class="cta-link">
+              <button class="cta-btn">
+                <div class="cta-label">Back</div>
+                <div class="cta-arrow">←Journal</div>
+              </button>
+            </a>
+          </section>
+
+          <!-- ===== CREATIVE GALLERY (亮 + draggable eggs) ===== -->
+          <!-- ===== SECTION 8 — CREATIVE GALLERY ===== -->
+        <section id="creative-gallery" class="creative-gallery-section">
+          <span id="typewriter-wrap" class="typewriter-wrap">
+            <span class="typewriter-brace">{ </span>
+            <span class="text-type">
+              <span id="typewriter-content" class="text-type__content"></span>
+              <span id="typewriter-cursor" class="text-type__cursor">_</span>
+            </span>
+            <span class="typewriter-brace"> }</span>
+          </span>
+          <div class="gallery-eggs-overlay">
+            <div class="egg-item" data-egg-id="4" data-egg-title="Happy!" data-content="&lt;p&gt;Welcome to the homepage of LML Design Studio,&lt;br&gt;Looks like you’ve discovered the Easter egg&lt;br&gt;That’s right — these little icons are draggable, and you can double-click them to open!&lt;br&gt;Wishing you happiness every day — Happy!&lt;/p&gt;">
+              <div class="egg-inner">
+                <div class="egg-img-wrap">
+                  <img alt="Happy!" class="egg-img" draggable="false" src="/images/egg-happy.png">
+                </div>
+                <span class="egg-label">Happy!</span>
+              </div>
+            </div>
+            <div class="egg-item" data-egg-id="2" data-egg-title="Graffiti" data-egglink="https://sketch.lml.cc">
+              <div class="egg-inner">
+                <div class="egg-img-wrap">
+                  <img alt="Graffiti" class="egg-img" draggable="false" src="/images/egg-graffiti.png">
+                </div>
+                <span class="egg-label">Graffiti</span>
+              </div>
+            </div>
+            <div class="egg-item" data-egg-id="1" data-egg-title="Journal" data-egglink="/en/journal">
+              <div class="egg-inner">
+                <div class="egg-img-wrap">
+                  <img alt="Journal" class="egg-img" draggable="false" src="/images/egg-journal.png">
+                </div>
+                <span class="egg-label">Journal</span>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-canvas-wrap">
+            <canvas id="gallery-canvas" class="gallery-canvas paint-container" width="1000" height="1000"></canvas>
+          </div>
+        </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE TRANSITION OVERLAYS ===== -->
+    <div class="page-transition-overlay page-transition-solid"></div>
+    <div class="page-transition-overlay page-transition-logo"></div>
+
+    <!-- ===== RIBBONS CONTAINER ===== -->
+    <div class="ribbons-wrap"><div class="ribbons-container"><canvas id="ribbons-canvas"></canvas></div></div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="site-footer" class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-row">
+          <div class="footer-left">
+            <span class="footer-copyright">&copy; LML DESIGN, INC.</span><a target="_blank" class="footer-icp" href="https://beian.miit.gov.cn/">粤ICP备2021075813号-5</a>
+          </div>
+          <div class="footer-center">
+            <span class="footer-location">China</span><span class="footer-dot"></span><span id="footer-clock" class="footer-clock">00:00:00 AM</span>
+          </div>
+          <div class="footer-right">
+            <div class="footer-lang"><button class="lang-btn lang-btn--inactive">中文</button><button class="lang-btn lang-btn--active">EN</button></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="custom-scrollbar"><div class="custom-scrollbar-track" role="presentation"><div id="scrollbar-thumb" class="custom-scrollbar-thumb" role="scrollbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div></div></div>
+
+    <!-- ===== CONTACT BUTTON (fixed) ===== -->
+    <div class="contact-fixed">
+      <a class="contact-btn" href="/contact">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0ZM1.27273 7C1.27273 3.83691 3.83691 1.27273 7 1.27273C10.1631 1.27273 12.7273 3.83691 12.7273 7C12.7273 10.1631 10.1631 12.7273 7 12.7273C3.83691 12.7273 1.27273 10.1631 1.27273 7Z" fill="currentColor"/></svg>
+        <span>Contact</span>
+      </a>
+    </div>
+
+    <script type="module" src="/src/journal-main.ts"></script>
+  </body>
+</html>

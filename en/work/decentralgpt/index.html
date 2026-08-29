@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>try{if(sessionStorage.getItem('lml-transition')==='1')document.documentElement.classList.add('lml-transitioning');}catch(e){}</script>
+    <link rel="stylesheet" href="/src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="DecentralGPT supports a wide range of open-source large language models and is committed to building a general artificial intelligence that is secure and reliable, privacy-focused, democratically governed, transparent, open-source, and universally accessible." />
+    <meta name="keywords" content="Liang Minliang,UI/UX,Web Design,Art Direction,Brand Design,Development" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+    <meta property="og:title" content="DecentralGPT - Work - LML Design Studio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/images/projects/1765526621661-705398572.webp" />
+    <title>DecentralGPT - Work - LML Design Studio</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="256x256" />
+
+    <!-- Font preloads -->
+    <link rel="preload" href="/fonts/neuemontreal-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/neuemontreal-medium.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/noto-sans-sc.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body class="overflow-x-hidden antialiased">
+
+    <!-- ===== HEADER NAV ===== -->
+    <header id="site-header">
+      <div class="header-inner">
+        <div class="header-flex">
+          <div class="header-logo-wrap">
+            <a href="/" class="header-logo-link">
+              <div class="header-logo" role="img" aria-label="LML Design Studio" style="view-transition-name:header-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 467 179" fill="currentColor">
+                  <path d="M347.168 0H376.918V153.5H466.168V178.75H347.168V0Z" fill="currentColor"></path>
+                  <path d="M139.404 178.75V0H177.904L227.904 137.5H228.404L278.154 0H316.654V178.75H287.654V43.25H287.154L239.904 178.75H216.154L168.904 43.25H168.404V178.75H139.404Z" fill="currentColor"></path>
+                  <path d="M0 0H29.75V153.5H119V178.75H0V0Z" fill="currentColor"></path>
+                </svg>
+              </div>
+            </a>
+          </div>
+          <nav class="desktop-nav">
+            <div class="nav-link-wrap">
+              <a class="nav-link" href="/work">Work</a>
+            </div>
+            <div class="nav-link-wrap">
+              <a class="nav-link" href="/studio">Studio</a>
+            </div>
+          </nav>
+          <button id="hamburger-btn" class="hamburger-btn" aria-label="Open navigation menu" aria-expanded="false">
+            <span class="hamburger-bar hamburger-bar--top"></span>
+            <span class="hamburger-bar hamburger-bar--bottom"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== MOBILE MENU PANEL ===== -->
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="mobile-menu-inner">
+        <nav class="mobile-menu-nav">
+          <a href="/" class="mobile-menu-link">Home</a>
+          <a href="/work" class="mobile-menu-link">Work</a>
+          <a href="/studio" class="mobile-menu-link">Studio</a>
+        </nav>
+        <div class="mobile-menu-footer">
+          <div class="mobile-menu-lang">
+            <button class="mobile-lang-btn">中文</button>
+            <button class="mobile-lang-btn mobile-lang-btn--active">EN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== NOISE OVERLAY ===== -->
+    <canvas id="noise-canvas" class="noise-overlay" width="1024" height="1024"></canvas>
+
+    <!-- ===== 3D DRAGON BACKGROUND (z-5, global like OG) ===== -->
+    <div id="bg-canvas-wrap" class="bg-canvas-wrap">
+      <div class="bg-canvas-inner">
+        <canvas id="bg-canvas" width="1920" height="1080"></canvas>
+      </div>
+    </div>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <div class="relative">
+      <div class="page-content-container">
+        <div class="work-detail-page" data-work-slug="decentralgpt">
+
+          <!-- Hero Image -->
+          <section class="work-detail-hero">
+            <div class="work-detail-hero-inner">
+              <img alt="DecentralGPT Hero" class="work-detail-hero-img" src="/images/work/decentralgpt/1767079366385-214909576.webp" />
+            </div>
+          </section>
+
+          <!-- Desktop Gallery -->
+          <section class="work-detail-gallery">
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767079364250-197260141.webp" alt="DecentralGPT 01" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767144808987-965957223.webp" alt="DecentralGPT 02" loading="lazy" /></div>
+            <div class="gallery-item"><video src="/images/work/decentralgpt/1767146646530-76848819.mp4" autoplay loop muted playsinline></video></div>
+            <div class="gallery-item">
+              <div class="gallery-two-col">
+                <img src="/images/work/decentralgpt/1767186827538-177287335.webp" alt="DecentralGPT 03-01" loading="lazy" />
+                <img src="/images/work/decentralgpt/1767196512782-975016468.webp" alt="DecentralGPT 03-02" loading="lazy" />
+              </div>
+            </div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767079366346-106057673.webp" alt="DecentralGPT 05" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767079366385-214909576.webp" alt="DecentralGPT 06" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767079364140-966447671.webp" alt="DecentralGPT 07" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767144852911-523375557.webp" alt="DecentralGPT 08" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767079366358-13092537.webp" alt="DecentralGPT 09" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767168585163-248699283.webp" alt="DecentralGPT 10" loading="lazy" /></div>
+          </section>
+
+          <!-- Mobile Gallery -->
+          <section class="work-detail-gallery" style="display:none;" id="mobile-gallery">
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767192874219-409940998.webp" alt="DecentralGPT mobile" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767144808987-965957223.webp" alt="DecentralGPT mobile 02" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767189330887-769521829.webp" alt="DecentralGPT mobile 03" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767189330874-223127831.webp" alt="DecentralGPT mobile 04" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767189331624-214279990.webp" alt="DecentralGPT mobile 05" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767189330885-428151374.webp" alt="DecentralGPT mobile 06" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767189330867-341418261.webp" alt="DecentralGPT mobile 07" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767189330889-145793861.webp" alt="DecentralGPT mobile 08" loading="lazy" /></div>
+            <div class="gallery-item"><img src="/images/work/decentralgpt/1767168585163-248699283.webp" alt="DecentralGPT mobile 09" loading="lazy" /></div>
+          </section>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- ===== PAGE TRANSITION OVERLAYS ===== -->
+    <div class="page-transition-overlay page-transition-solid"></div>
+    <div class="page-transition-overlay page-transition-logo"></div>
+
+    <!-- ===== RIBBONS CONTAINER (decorative canvas overlay) ===== -->
+    <div class="ribbons-wrap">
+      <div class="ribbons-container">
+        <canvas id="ribbons-canvas"></canvas>
+      </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="site-footer" class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-row">
+          <div class="footer-left">
+            <span class="footer-copyright">&copy; LML DESIGN, INC.</span><a target="_blank" class="footer-icp" href="https://beian.miit.gov.cn/">粤ICP备2021075813号-5</a>
+          </div>
+          <div class="footer-center">
+            <span class="footer-location">China</span>
+            <span class="footer-dot"></span>
+            <span id="footer-clock" class="footer-clock">00:00:00 AM</span>
+          </div>
+          <div class="footer-right">
+            <div class="footer-lang">
+              <button class="lang-btn lang-btn--inactive">中文</button>
+              <button class="lang-btn lang-btn--active">EN</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== CUSTOM SCROLLBAR ===== -->
+    <div class="custom-scrollbar">
+      <div class="custom-scrollbar-track" role="presentation">
+        <div id="scrollbar-thumb" class="custom-scrollbar-thumb" role="scrollbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+      </div>
+    </div>
+
+    <!-- ===== NAV BUTTONS ===== -->
+    <div class="work-detail-nav">
+      <a href="/en/work/zaowujun" class="work-detail-nav-btn" aria-label="Next project">
+        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none" aria-hidden="true">
+          <rect width="17" height="2" rx="1" fill="white"></rect>
+          <rect y="7" width="17" height="2" rx="1" fill="white"></rect>
+          <rect y="14" width="11" height="2" rx="1" fill="white"></rect>
+        </svg>
+      </a>
+      <a href="/" class="work-detail-nav-btn" aria-label="Go back to work list">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6.84766 3.2417C7.26698 2.88227 7.89838 2.93078 8.25781 3.3501C8.61713 3.7694 8.56866 4.39987 8.14941 4.75928L6.70215 5.99951H12.498C16.4762 5.99983 19.8397 9.23434 19.9951 13.2104C20.159 17.4136 16.7006 20.9992 12.498 20.9995H6C5.44772 20.9995 5 20.5518 5 19.9995C5.00026 19.4474 5.44788 18.9995 6 18.9995H12.498C15.5682 18.9992 18.1166 16.3546 17.9971 13.2886C17.8836 10.386 15.4021 7.99984 12.498 7.99951H6.41211L8.20605 9.79346C8.59651 10.184 8.59651 10.817 8.20605 11.2075C7.81551 11.5975 7.18236 11.5978 6.79199 11.2075L3.29199 7.70752C3.09522 7.51074 2.98954 7.24046 3 6.9624C3.01068 6.6843 3.13746 6.42296 3.34863 6.2417L6.84766 3.2417Z" fill="white"></path>
+        </svg>
+      </a>
+    </div>
+
+    <!-- ===== PROGRESS BAR ===== -->
+    <div class="work-detail-progress">
+      <div class="work-detail-progress-bar" id="progress-bar"></div>
+    </div>
+
+    <script type="module" src="/src/work-detail.ts"></script>
+  </body>
+</html>

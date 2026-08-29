@@ -1,0 +1,33 @@
+[site]
+name = "lml"
+url = "https://jenniferhuang-webcraft-lml.vercel.app/"
+original_url = "https://lml.cc/en"
+description = "Replication of lml.cc"
+category = "replication"
+
+[site.tech]
+stack = ["Vite", "TypeScript", "GSAP", "ScrollTrigger", "Lenis", "Spline", "Matter.js", "WebGL2"]
+hosting = "vercel"
+hosting_access_granted = true
+
+[site.assets]
+images = []
+videos = []
+models_3d = []
+svgs = []
+
+[site.prd]
+file = "PRD.md"
+setup = ""
+backend = ""
+
+# Dashboard preview screenshot (committed image). Walkthrough videos are linked in SETUP.md.
+[[screenshots]]
+route = "/"
+file = "screenshots/replica-home-hero.png"
+device = "desktop"
+side = "replica"
+
+[task]
+format = "web_craft"
+workstream = "web_craft"

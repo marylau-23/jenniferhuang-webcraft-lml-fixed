@@ -1,0 +1,22 @@
+node_modules/
+.next/
+dist/
+.env
+.env.local
+.DS_Store
+AGENTS.md
+
+# Agent / tooling
+.claude/
+
+# OG reference snapshots & recordings (NOT part of the submission)
+LML Design Studio_files/
+LML Design Studio.html
+案例详情*
+*.mov
+443.*.js
+8304.*.js
+8837.*.js
+c6a54c64.*.js
+c15bf2b0*.js
+PRD copy.md
